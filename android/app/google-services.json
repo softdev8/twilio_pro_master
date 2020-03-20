@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "997134340398",
+    "firebase_url": "https://testpro-bb753.firebaseio.com",
+    "project_id": "testpro-bb753",
+    "storage_bucket": "testpro-bb753.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997134340398:android:db44f62d1c58a96f01aabf",
+        "android_client_info": {
+          "package_name": "com.testpro.twilio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997134340398-qvkm8q54potj56nguq9ago4uu5klm6cc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.testpro.twilio",
+            "certificate_hash": "0b754d72785a3967a34f1578a067f04079296415"
+          }
+        },
+        {
+          "client_id": "997134340398-188pmgaab8p1bip4vjnvl1sg010m52i7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvf9KtfLGUQiw3FC7CwO0cGwmupmmmhOE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997134340398-188pmgaab8p1bip4vjnvl1sg010m52i7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
