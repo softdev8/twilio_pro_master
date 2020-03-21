@@ -42,6 +42,7 @@ export default class App extends Component {
   onAnswerCallAction = (data) => {
     let { callUUID } = data;
     RNCallKeep.setCurrentCallActive(callUUID);
+    // RNCallKeep.endCall(callUUID);
     TwilioVoice.accept();
   };
 
@@ -133,11 +134,11 @@ export default class App extends Component {
   render() {
     return (
       <View style={styles.container}>
-        {/* <TouchableOpacity onPress={() => this.initTwilio()}>
+        <TouchableOpacity onPress={() => this.initTwilio()}>
           <View>
-              <Text>Init Twilio for test2</Text>
+            <Text>Caller {this.state.message}</Text>
           </View>
-        </TouchableOpacity> */}
+        </TouchableOpacity>
         
         <TouchableOpacity style={{marginTop: 20}} disabled={!this.state.twilioInited} onPress={() => this.makeCall()}>
           <View>
